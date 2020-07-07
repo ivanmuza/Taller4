@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario de Registro</title>
+</head>
+<body>
+  <section class="form-register">
+    <h4><center>Formulario Registro</center></h4>
+    <form action="usercss.html" method="post">
+    <input class="controls" type="number" name="id_usr" value=""  placeholder="Ingrese su Identificación" maxlength="11" required/>
+   <select class="controls" name="id_pais">
+        <option value="0" selected="">Seleccione el País</option>
+        <option value="1">Argentina</option>
+        <option value="2">Arabia Saudita</option>
+        <option value="3">Alemania</option>
+        <option value="4">Australia</option>
+        <option value="5">Bélgica</option>
+        <option value="6">Brasil</option>
+        <option value="7">Canadá</option>
+        <option value="8">Colombia</option>
+        <option value="8">Ecuador</option>
+        <option value="9">Estados Unidos</option>
+        <option value="10">España</option>
+        <option value="11">México</option>
+        <option value="12">Nicaragua</option>
+    </select><br/>
+    <input  class="controls" type="text" name="nombre" value="" placeholder="Ingrese su Nombre" maxlength="25" required/><br/>
+    <input class="controls" type="text" name="apellido" value=""  placeholder="Ingrese su Apellido" maxlength="25" required/><br/>
+    <input  class="controls" type="text" name="dirección" value="" placeholder="Ingrese su Dirección"maxlength="45" required/><br/>
+    <input  class="controls" type="text" name="user" value="" placeholder="&#128100; Usuario" maxlength="20" required/><br/>
+  <input  class="controls" type="password" name="contraseña" value="" placeholder="Ingrese su Contraseña" required/><br/>
+    <input  class="controls" type="email" name="email" value=""  placeholder="Ingrese su Email" maxlength="120" required/><br/>
+    <input class="controls"  type="text" name="telefono" value="" placeholder="Ingrese su Teléfono" maxlength="20" required/><br/>
+    <input class="botons" type="submit" value="Registrar">
+    </form>
+  </section>
+</body>
+</html>
