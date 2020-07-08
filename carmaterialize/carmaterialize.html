@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>autos</title>
+      <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+      <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+      <script>
+         $(document).ready(function() {
+            $('select').material_select();
+         });
+      </script>
+</head>
+<body background="fondo.jpg"> 
+	<section class="container">
+		<div class="row">
+		<h3>Registro de Autos</h3>
+			<article class="col s6 offset-s3">
+				<form method="POST" action="carmaterialize.html">
+					<div class="input-field">
+						<i class="material-icons prefix">directions_car</i>
+						<label for="coche">ID coche</label>
+						<input type="text" name="coche" required>
+					</div> 
+                     
+                    <div class = "row">
+             			<select>
+               		   <option value = "" disabled selected>Combustible Usado</option>
+            		    <option value="1">Gasolina 98</option>
+                        <option value="2">Gasolina 95</option>
+                        <option value="3">Bioetanol</option>
+                        <option value="4">Diésel Normal</option>
+                        <option value="5">Diésel Plus</option>
+                        <option value="6">Biodiésel</option>
+                        <option value="7">Diésel 1D, 2D, 4D</option>
+                        <option value="8">Gas Natural</option>
+                       </select>               
+                      </div>
+                      <div class = "row">
+             			<select>
+               		   <option value = "" disabled selected>Tipo de Coche</option>
+            		    <option value="1">Monovolumen</option>
+        				<option value="2">Berlina o sedán</option>
+                        <option value="3">Cupé</option>
+                        <option value="4">Roadster</option>
+                        <option value="5">Todoterreno</option>
+                        <option value="6">Crossover</option>
+                        <option value="7">Deportivos</option>
+                       </select>               
+                      </div>
+     				   <div class = "row">
+             			<select>
+               		   <option value = "" disabled selected>Estado Coche</option>
+            		        <option value="1">Nuevo</option>
+       					    <option value="2">Usado</option>
+                       </select>               
+       	               </div>
+      				  <div class = "row">
+             			<select>
+               		   <option value = "" disabled selected>Marca Coche</option>
+            		        <option value="1">Abarth</option>
+        					<option value="2">Audi</option>
+       					    <option value="3">BMW</option>
+       						<option value="4">Ferrari</option>
+      						<option value="5">Ford</option>
+       						<option value="6">Honda</option>
+       					    <option value="7">Jeep</option>
+                            <option value="8">Kia</option>
+                            <option value="9">Lamborghini</option>
+                            <option value="10">Maserati</option>
+                            <option value="11">Mazda</option>
+                            <option value="12">Mercedes-Benz</option>
+                            <option value="13">Renault</option>
+                            <option value="14">Toyota</option>
+                       </select>               
+                      </div>
+     				   <div class = "row">
+					<div class="input-field">
+						<i class="material-icons prefix">person</i>
+						<label for="id">Identificación</label>
+						<input type="text" name="id" required>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">filter_none</i>
+						<label for="mod">Modelo</label>
+						<input type="text" name="mod" required>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">access_time</i>
+						<label for="a">Año</label>
+						<input type="text" name="a" required>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">border_color</i>
+						<label for="de">Detalle</label>
+						<input type="text" name="de" required>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">call_to_action</i>
+						<label for="motor">Motor</label>
+						<input type="text" name="motor" required>
+					</div>
+						<div class="input-field">
+						<i class="material-icons prefix">timer</i>
+						<label for="fe">Fecha</label>
+						<input type="text" name="fe" required>
+					</div>
+						<div class="input-field">
+						<i class="material-icons prefix">attach_money</i>
+						<label for="pre">Precio</label>
+						<input type="text" name="pre" required>
+					</div>
+						<div class="input-field">
+						<i class="material-icons prefix">brightness_1</i>
+						<label for="mon">Moneda</label>
+						<input type="text" name="mon" required>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">mode_edit</i>
+						<label for="mensaje">Mensaje 1</label>
+						<textarea name="mensaje" id="" rows="10" class="materialize-textarea"  length="140" required></textarea>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">mode_edit</i>
+						<label for="mensaje">Mensaje 2</label>
+						<textarea name="mensaje" id="" rows="10" class="materialize-textarea"  length="140" required></textarea>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">mode_edit</i>
+						<label for="mensaje">Mensaje 3</label>
+						<textarea name="mensaje" id="" rows="10" class="materialize-textarea"  length="140" required></textarea>
+					</div>
+					<p class="center-align">
+						<button class="waves-effect waves-light btn" type="submit"><i class="material-icons right">send</i>enviar</button>
+					</p>
+				</form>
+			</article>
+		</div>
+	</section>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+</body>
+</html>
