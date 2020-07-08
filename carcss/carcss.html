@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>autos</title>
+</head>
+<body>
+  <section class="form-register">
+    <h4><center>Registro de Autos</center></h4>
+    <form action="carcss.html" method="post">
+      <input  class="controls" type="text" name="id_coche" value="" placeholder="&#128663; ID coche" maxlength="11" required/>
+   <select class="controls" name="id_movidoa">
+        <option value="0" selected="">Tipo de Combustible Usado</option>
+        <option value="1">Gasolina 98</option>
+        <option value="2">Gasolina 95</option>
+        <option value="3">Bioetanol</option>
+        <option value="4">Diésel Normal</option>
+        <option value="5">Diésel Plus</option>
+        <option value="6">Biodiésel</option>
+        <option value="7">Diésel 1D, 2D, 4D</option>
+        <option value="8">Gas Natural</option>
+    </select><br/>
+    <select class="controls" name="id_tipocoche">
+        <option value="0" selected="">Tipo de Coche</option>
+        <option value="1">Monovolumen</option>
+        <option value="2">Berlina o sedán</option>
+        <option value="3">Cupé</option>
+        <option value="4">Roadster</option>
+        <option value="5">Todoterreno</option>
+        <option value="6">Crossover</option>
+        <option value="7">Deportivos</option>
+    </select><br/>
+        <select class="controls" name="id_tipocoche">
+        <option value="0" selected="">Estado Coche</option>
+        <option value="1">Nuevo</option>
+        <option value="2">Usado</option>
+    </select><br/>
+     <select class="controls" name="id_marca">
+        <option value="0" selected="">Marca Coche</option>
+        <option value="1">Abarth</option>
+        <option value="2">Audi</option>
+        <option value="3">BMW</option>
+        <option value="4">Ferrari</option>
+        <option value="5">Ford</option>
+        <option value="6">Honda</option>
+        <option value="7">Jeep</option>
+        <option value="8">Kia</option>
+        <option value="9">Lamborghini</option>
+        <option value="10">Maserati</option>
+        <option value="11">Mazda</option>
+        <option value="12">Mercedes-Benz</option>
+        <option value="13">Renault</option>
+        <option value="14">Toyota</option>
+    </select><br/>
+    <select class="controls" name="id">
+      <option value="TIPO">Tipo Identificación</option>
+      <option value="CC">CC</option>
+      <option value="TI" selected="">TI</option>
+    </select>
+    <input  class="controls" type="text" name="modelo" value="" placeholder="Modelo" maxlength="60" required/><br/>
+    <input  class="controls" type="text" name="año" value="" placeholder="Año" maxlength="4" required/><br/>
+    <input class="controls" type="text" name="detalle" value=""  placeholder="Detalle" required/><br/>
+    <input  class="controls" type="text" name="motor" value="" placeholder="Motor"required/><br/>
+    <input  class="controls" type="text" name="fechapub" value="" placeholder="Fecha" maxlength="20" required/><br/>
+  <input  class="controls" type="number" name="precio" value="" placeholder="Precio" required/><br/>
+    <input  class="controls" type="text" name="moneda" value=""  placeholder="Moneda" maxlength="3" required/><br/>
+   Escribe las Descripciones<br/><br/>
+   Descripción 1
+  <textarea class="controls" placeholder="Precio" name="des1" rows="2"> </textarea><br/>
+  Descripción 2
+  <textarea class="controls" name="des2" rows="2"> </textarea><br/>
+  Descripción 3
+  <textarea class="controls" name="des2" rows="2"> </textarea><br/>
+    <input class="botons" type="submit" value="Registrar">
+    </form>
+  </section>
+</body>
+</html>
